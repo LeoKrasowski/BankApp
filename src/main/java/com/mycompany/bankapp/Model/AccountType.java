@@ -4,10 +4,9 @@
  */
 package com.mycompany.bankapp.Model;
 
-/**
- *
- * @author Admin
- */
+
 public enum AccountType {
-    
+    ORDINARY,
+    SAVING,
+    SALARY;
 }
