@@ -9,6 +9,7 @@ public class Account {
     private String iban;
     private String name;
     private AccountType type;
+    private Currency currency;
     
     public Account(){
         
@@ -30,6 +31,10 @@ public class Account {
         return type;
     }
     
+    public Currency getCurrency(){
+       return currency;
+    }
+    
     public void setId(int id){
         this.id = id;
     }
@@ -44,5 +49,9 @@ public class Account {
     
     public void setType(AccountType type){
         this.type = type;
+    }
+    
+    public void setCurrency (Currency currency){
+        this.currency = currency;
     }
 }
